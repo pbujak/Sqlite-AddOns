@@ -1,0 +1,3 @@
+There are utilities and libraries, that can help use of SQlite in C++ applications. All of them are iinitially written 
+in Linux using Eclipse CDT, but with possibility to transfer to Windows and other tools (ie Visual Studio):
+1) sqlite_stub_maker: generates stub SQlite database and C++ ORM wrappers code for tables and views. As input is used a SQL script with DDL commands related to database schema, but first line should look like "--!include-orm-mappings "orm-mappings.xml"
