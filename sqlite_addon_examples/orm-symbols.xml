@@ -1,0 +1,19 @@
+<orm-mappings namespace="dbSymbols">
+	<table name="access" class="DbAccess">
+		<column name="flags" field="m_flags"/>
+		<column name="value" field="m_value"/>
+	</table>
+	<table name="Units" class="DbUnitRecord">
+		<column name="name" field="m_name"/>
+	</table>	
+	<table name="ALL_symbols" class="DbAllSymbolsRecord">
+		<column name="name" field="m_name"/>
+		<column name="unit" field="m_unit"/>
+	</table>
+	<table name="All_shapes" class="DbAllShapesRecord">
+		<column name="unit" field="m_unit" notnull="y"/>
+		<column name="symbol" field="m_symbol" notnull="y"/>
+		<column name="guid" field="m_guid" notnull="y"/>
+		<column name="content" field="m_content" notnull="y"/>
+	</table>
+</orm-mappings>
