@@ -7,4 +7,4 @@ Examples:
 	make
 	make clean
 
-
+Additionally in case of sqlite_stub_maker the C++ metasource template is located in "resources" subdirectory, in Linux it is translated by xxd into "gen" subdirectory (it is handled by "prebuild.sh" script before the actual build in CDT, but it is not included in makefile). In Windows it would be managed differently by Microsoft's resource management system.
