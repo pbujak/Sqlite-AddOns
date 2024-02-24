@@ -1,3 +1,5 @@
+** SQLite stub generator including database and C++ code and C++ library that can use generated code **
+
 There are utilities and libraries, that can help use of SQlite in C++ applications. All of them are iinitially written in Linux using Eclipse CDT, but its goal is to be a multiplatform solution (including Visual Studio):
 
 For each project (sqlite_stub_maker, sqlite_wrapper, sqlite_wrapper_tests) there are 2 configurations; Debug and Release.
