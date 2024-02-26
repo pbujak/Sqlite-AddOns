@@ -45,7 +45,7 @@ all: libsqlite_wrapper.so
 libsqlite_wrapper.so: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -shared -o "libsqlite_wrapper.so" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -fvisibility=hidden -shared -o "libsqlite_wrapper.so" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
