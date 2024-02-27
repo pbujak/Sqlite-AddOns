@@ -83,6 +83,8 @@ parseArguments( int argc, char *argv[] )
 
 			result.m_generateCodeDirectory = Util::makePath( *it );
 		}
+		else
+			return Arguments();
 
 		++it;
 	}
